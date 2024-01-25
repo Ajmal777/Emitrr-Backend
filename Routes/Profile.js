@@ -5,7 +5,7 @@ const {
     leaderboard,
     getUserData,
 } = require("../Controllers");
-const Auth = require("../middlewares/Auth");
+const Auth = require("../middlewares/auth");
 const asyncHandler = require("../middlewares/asyncHandler");
 
 const router = require("express").Router();
